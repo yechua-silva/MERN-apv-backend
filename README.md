@@ -1,5 +1,8 @@
 <h1>MERN - APV - Administrador Pacientes Veterianaria  🐕‍🦺🐶🧑‍⚕️</h1>
-<img src="public/img/superior.jpg" alt="portada Rio de Janeiro">
+<img src="./img/1.png" alt="inicio de sesion">
+<img src="./img/2.png" alt="administrador de pacientes">
+<img src="./img/3.png" alt="editar perfil">
+<img src="./img/4.png" alt="cambiar constraseña">
 
 ## Descripción 
 Este proyecto es un backend desarrollado utilizando MongoDB y Mongoose para establecer una conexión segura y eficiente con la base de datos. Se han implementado características esenciales como la validación de usuarios, el hash de contraseñas utilizando bcrypt y el uso de JWT para la confirmación por correo electrónico. Además, se ha agregado la funcionalidad de restablecimiento de contraseñas en caso de olvido. El backend ha sido rigurosamente probado utilizando Postman para asegurar un funcionamiento óptimo.
