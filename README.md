@@ -6,7 +6,7 @@
 
 ## Descripción 
 Este proyecto es un backend desarrollado utilizando MongoDB y Mongoose para establecer una conexión segura y eficiente con la base de datos. Se han implementado características esenciales como la validación de usuarios, el hash de contraseñas utilizando bcrypt y el uso de JWT para la confirmación por correo electrónico. Además, se ha agregado la funcionalidad de restablecimiento de contraseñas en caso de olvido. El backend ha sido rigurosamente probado utilizando Postman para asegurar un funcionamiento óptimo.
-Para el envío de correos, actualmente se utiliza Mailtrap para simular el envío, pero estoy trabajando en la integración con el envío real. También implementé CORS para permitir el acceso controlado desde diferentes dominios. Además, utilicé dotenv para gestionar las variables de entorno de forma segura.
+Para el envío de correos, se utilizo Mailtrap para simular el envío, actualmente se usa Brevo para el envio de email reales . También implementé CORS para permitir el acceso controlado desde diferentes dominios. Además, utilicé dotenv para gestionar las variables de entorno de forma segura.
 ## Características
 - Backend completado exitosamente utilizando MongoDB con Mongoose para establecer una conexión segura y eficiente.
 - Implementación de validación de usuarios y hash de contraseñas con bcrypt para una mayor seguridad.
